@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    border: 0;
+     
+}
+.sep{
+    width: 100vw;
+    height: 10px;
+    background-color:gray;
+}
+.boss{
+    width: 100vw;
+    background-color: black;
+    
+}     

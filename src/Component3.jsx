@@ -99,6 +99,12 @@ Diva winner in CodeRush 2024 coding contest <br />
         
             <div className={` ${isVisiVisible3 ? 'visible' : 'not'}`}>
             B.Tech in Computer Science Engineering from Delhi Technological University (2022-2026) <br />
+            12th from Frank Anthony Public School, New Delhi (2022) <br />
+            10th from Frank Anthony Public School, New Delhi (2020) <br />
+        </div>
+    
+            
+        </div>
     
         
     
