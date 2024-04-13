@@ -11,7 +11,7 @@ function C1() {
         <nav> <span><img width="53"  src="public\images\logo.svg" alt="" /><p>ragya</p></span>
         <div>
                 <button className="btn">English</button>
-                <button className="btn btn-red-sm">Resume</button>
+                <button className="btn btn-red-sm" onClick={ ()=>{window.open("https://docs.google.com/document/d/127Vk9pLw23A8yJwexYk43JXbAfbXGkw3SnJIjspOqwA/edit?usp=sharing");} }>Resume</button>
             </div> </nav>
          <div className="box">
           
@@ -22,7 +22,7 @@ function C1() {
             <span>Ready to check out my work?</span>
             <div className="hero-buttons">
                 {/* <input type="text" placeholder="Email Address"/> */}
-                <button className="btn btn-red">Say HI!! &gt;</button>
+                <button className="btn btn-red" onClick={ ()=>{window.open("https://www.linkedin.com/in/pragya-mehra-7a9b0226a/");} }>Say HI!! &gt;</button>
             </div>
         </div>
        </main>
