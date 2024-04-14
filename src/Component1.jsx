@@ -1,6 +1,7 @@
 
 
 import './Component1.css'
+import logo from './assets/images/logo.svg'
 function C1() {
     
    
@@ -8,7 +9,7 @@ function C1() {
        <>
         
        <main>
-        <nav> <span><img width="53"  src="src\assets\images\logo.svg" alt="" /><p>ragya</p></span>
+        <nav> <span><img width="53"  src={logo} alt="" /><p>ragya</p></span>
         <div>
                 <button className="btn">English</button>
                 <button className="btn btn-red-sm" onClick={ ()=>{window.open("https://docs.google.com/document/d/127Vk9pLw23A8yJwexYk43JXbAfbXGkw3SnJIjspOqwA/edit?usp=sharing");} }>Resume</button>
