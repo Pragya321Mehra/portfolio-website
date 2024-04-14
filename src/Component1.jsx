@@ -2,6 +2,7 @@
 
 import './Component1.css'
 import logo from './assets/images/logo.svg'
+
 function C1() {
     
    

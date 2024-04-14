@@ -1,4 +1,6 @@
 import './Component2.css'
+import vid1 from './assets/videos/Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4'
+import vid2 from './assets/videos/Document — Mozilla Firefox 2024-04-11 11-27-49.mp4'
 function C2() {
     return(
 <>
@@ -9,7 +11,7 @@ function C2() {
         </div>
 
         <div className="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
+            <img src={vid1} alt=""/>
             <video src="src\assets\videos\Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4"
                 autoPlay loop muted></video>
         </div>
@@ -20,7 +22,7 @@ function C2() {
 
         <div className="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
-            <video src="src\assets\videos\Document — Mozilla Firefox 2024-04-11 11-27-49.mp4"
+            <video src={vid2}
                 autoPlay loop muted></video>
 
         </div>
