@@ -10,7 +10,7 @@ function C2() {
 
         <div className="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
-            <video src="public\videos\Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4"
+            <video src="src\assets\videos\Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4"
                 autoPlay loop muted></video>
         </div>
     </section>
@@ -20,7 +20,7 @@ function C2() {
 
         <div className="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
-            <video src="public\videos\Document — Mozilla Firefox 2024-04-11 11-27-49.mp4"
+            <video src="src\assets\videos\Document — Mozilla Firefox 2024-04-11 11-27-49.mp4"
                 autoPlay loop muted></video>
 
         </div>
