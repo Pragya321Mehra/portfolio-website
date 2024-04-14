@@ -11,8 +11,8 @@ function C2() {
         </div>
 
         <div className="secImg">
-            <img src={vid1} alt=""/>
-            <video src="src\assets\videos\Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4"
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
+            <video src={vid1}
                 autoPlay loop muted></video>
         </div>
     </section>
