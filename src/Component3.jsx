@@ -81,8 +81,13 @@ Diva winner in CodeRush 2024 coding contest <br />
         <div className="faqbox">
             <div className="question"><span>Where is my education from</span>
             <button className="show" onClick={handleButtonClick3}>
-            <span> {isVisiVisible3 ? '-' : '+'}</span>
-    </button>
+            
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4V20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M4 12H20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+
+            </button>
     </div>
         
             <div className={` ${isVisiVisible3 ? 'visible' : 'not'}`}>
