@@ -89,3 +89,9 @@
 .visible{
     display: block;
 }
+.question>button> span{
+    font-size: 24px;
+    color: white;
+
+
+}

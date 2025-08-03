@@ -30,10 +30,7 @@ function C3() {
         <div className="faqbox">
             <div className="question"><span>What are my skills</span>
             <button className="show" onClick={handleButtonClick}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 4V20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M4 12H20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+            <span> {isVisiVisible ? '-' : '+'}</span>
     </button>
     </div>
         
@@ -47,10 +44,7 @@ function C3() {
         <div className="faqbox">
             <div className="question"><span>What are my achievements</span>
             <button className="show" onClick={handleButtonClick1}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 4V20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M4 12H20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+            <span> {isVisiVisible1 ? '-' : '+'}</span>
     </button>
     </div>
         
@@ -68,12 +62,9 @@ Diva winner in CodeRush 2024 coding contest <br />
             
         </div>
         <div className="faqbox">
-            <div className="question"><span>what are my extra curricular interests </span>
+            <div className="question"><span>What are my extra curricular interests </span>
             <button className="show" onClick={handleButtonClick2}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 4V20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M4 12H20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+            <span> {isVisiVisible2 ? '-' : '+'}</span>
     </button>
     </div>
         
@@ -90,10 +81,7 @@ Diva winner in CodeRush 2024 coding contest <br />
         <div className="faqbox">
             <div className="question"><span>Where is my education from</span>
             <button className="show" onClick={handleButtonClick3}>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 4V20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M4 12H20" stroke="#141B34" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+            <span> {isVisiVisible3 ? '-' : '+'}</span>
     </button>
     </div>
         
