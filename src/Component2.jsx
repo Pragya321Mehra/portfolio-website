@@ -1,19 +1,18 @@
 import './Component2.css'
-import vid1 from './assets/videos/Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4'
+//import vid1 from './assets/videos/Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4'
 import vid2 from './assets/videos/Document — Mozilla Firefox 2024-04-11 11-27-49.mp4'
 function C2() {
     return(
 <>
 <section className="first">
         <div>
-            <span>Weather App</span>
-            <span>React App developed to warn you about the weather before you step out.</span>
+            <span>Google Intern 2025</span>
+            <span>Got the incredible opportunity to work with cutting-edge technology and innovative projects.</span>
         </div>
 
         <div className="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
-            <video src={vid1}
-                autoPlay loop muted></video>
+            <img src="./assets/images/WhatsApp Image 2025-08-03 at 09.18.47_10cb3a66.jpg" alt=""/>
         </div>
     </section>
     <div className="sep"></div>
