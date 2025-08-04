@@ -1,7 +1,8 @@
 import './Component2.css'
+import img1 from './public/images/WhatsApp Image 2025-08-03 at 09.18.47_10cb3a66.jpg'
 //import vid1 from './assets/videos/Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4'
-import img1 from './assets/images/WhatsApp Image 2025-08-03 at 09.18.47_10cb3a66.jpg'
-import vid2 from './assets/videos/Document — Mozilla Firefox 2024-04-11 11-27-49.mp4'
+import img2 from './public/images/Screenshot 2025-08-04 at 17-18-22 amazon summer school - Google Search.png'
+//import vid2 from './assets/videos/Document — Mozilla Firefox 2024-04-11 11-27-49.mp4'
 function C2() {
     return(
 <>
@@ -22,13 +23,12 @@ function C2() {
 
         <div className="secImg">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""/>
-            <video src={vid2}
-                autoPlay loop muted></video>
+            <img src={img2} alt=""/>
 
         </div>
         <div>
-            <span>Etch-A-Sketch</span>
-            <span>Get ready to dive into your childhood memories with a digital pen and paper. </span>
+            <span>Amazon summer school 2024</span>
+            <span>Got the chance to learn from industry experts and work on real-world projects.</span>
         </div>
     </section>
 
