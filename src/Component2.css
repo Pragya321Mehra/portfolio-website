@@ -31,9 +31,9 @@
 }
 
 .secImg img:nth-child(2) {
-    position: absolute;
+    position: relative;
     top: 30px;
-    left: 350px;
+    left: 300px;
     width: 250px; /* Smaller than the first image */
     z-index: 20; /* Ensure it overlaps above the first image */
 }
