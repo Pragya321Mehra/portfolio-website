@@ -1,7 +1,7 @@
 import './Component2.css'
-import img1 from './public/images/WhatsApp Image 2025-08-03 at 09.18.47_10cb3a66.jpg'
+import img1 from './assets/images/WhatsApp Image 2025-08-03 at 09.18.47_10cb3a66.jpg'
 //import vid1 from './assets/videos/Vite + React — Mozilla Firefox 2024-04-11 11-45-11.mp4'
-import img2 from './public/images/Screenshot 2025-08-04 at 17-18-22 amazon summer school - Google Search.png'
+import img2 from './assets/images/Screenshot 2025-08-04 at 17-18-22 amazon summer school - Google Search.png'
 //import vid2 from './assets/videos/Document — Mozilla Firefox 2024-04-11 11-27-49.mp4'
 function C2() {
     return(
