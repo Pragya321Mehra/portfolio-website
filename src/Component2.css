@@ -34,7 +34,7 @@
     position: absolute;
     top: 51px;
     right: 0;
-    width: 555px;
+    width: 350px; /* Smaller than the first image */
 }
 
 section.first>div {
