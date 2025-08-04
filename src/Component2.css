@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.secImg img {
+.secImg img:nth-child(1) {
     width: 555px;
     position: relative;
     z-index: 10;
@@ -32,9 +32,10 @@
 
 .secImg img:nth-child(2) {
     position: absolute;
-    top: 51px;
-    right: 0;
-    width: 350px; /* Smaller than the first image */
+    top: 30px;
+    left: 350px;
+    width: 250px; /* Smaller than the first image */
+    z-index: 20; /* Ensure it overlaps above the first image */
 }
 
 section.first>div {
