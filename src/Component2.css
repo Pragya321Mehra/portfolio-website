@@ -31,11 +31,12 @@
 }
 
 .secImg img:nth-child(2) {
-    position: relative;
-    top: 30px;
-    left: 300px;
-    width: 250px; /* Smaller than the first image */
-    z-index: 20; /* Ensure it overlaps above the first image */
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    width: 407px; /* Smaller than the first image */
+    z-index: 0; /* Ensure it overlaps above the first image */
+    height: 305px;
 }
 
 section.first>div {
